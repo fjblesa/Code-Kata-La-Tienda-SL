@@ -21,7 +21,9 @@ o	La calidad se incrementa en 3 cuando quedan 5 días o menos.
 •	“Tarta de Manzana” pierde la calidad el doble de rápido que un producto normal
 
 Notas:
+
 1.	Crea una clase denominada “actualizar productos” y añádele el código que consideres necesario para que el sistema funcione correctamente.
+
 2.	Crea una clase “Producto” que posea el siguiente código (Esta clase no se puede modificar nada): 
 
 public class Producto{
