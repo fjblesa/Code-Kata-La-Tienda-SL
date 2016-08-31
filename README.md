@@ -7,6 +7,7 @@ Como funciona nuestro sistema:
 •	Todos los ítems tienen un atributo caducidad que nos indica el número óptimo para venderlo.
 •	Todos los ítems tienen un atributo valor que define la calidad del producto.
 •	Al finalizar el día ambos atributos se actualizan automáticamente.
+
 Detalles:
 •	Cuando el contador de caducidad llega a 0, la calidad de degrada el doble de rápido.
 •	La calidad de un producto nunca puede ser negativa.
@@ -22,6 +23,7 @@ o	La calidad se incrementa en 3 cuando quedan 5 días o menos.
 Notas:
 1.	Crea una clase denominada “actualizar productos” y añádele el código que consideres necesario para que el sistema funcione correctamente.
 2.	Crea una clase “Producto” que posea el siguiente código (Esta clase no se puede modificar nada): 
+
 public class Producto{
     public Producto(String nombre, int caducidad, int valor) {
     this.nombre = nombre;
